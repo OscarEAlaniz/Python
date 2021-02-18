@@ -1,0 +1,3 @@
+"""
+variables locales y globales
+"""
