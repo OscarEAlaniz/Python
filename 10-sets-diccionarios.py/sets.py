@@ -10,5 +10,6 @@ personas = {
     "carlos"
 }
 
-
+personas.add("paco")
+personas.remove("victor")
 print(personas)
