@@ -63,3 +63,14 @@ class Informatico(Persona):
 
     def repararPC(self):
         return "he reparado tu ordenador"
+
+class TecnicoRedes(Informatico):
+
+    def __init__(self):
+        super().__init__()   # agrga el constructor de la clase informatico 
+        self.auditarRedes = "experto"
+        self.experienciaRedes = 15
+
+    def auditoria(self):
+        return "estoy auditando una red"
+
