@@ -14,6 +14,9 @@ class Coche:
     caballaje = 100
     plazas = 2
 
+    soy_publico= "soy un atributo publico"  # atributo publico
+
+    __soy_privado= "Hola soy una atributo privado" # atributo privado
 
     # construcutor 
     def __init__(self,color,marca,modelo,velocidad,caballaje, plazas):
@@ -62,4 +65,8 @@ class Coche:
         info+="\n Modelo: "+ self.getModelo()
         info+="\n Velocidad: "+ str(self.getVelocidad())
         return info
+
+
+    def getPrivado(self):
+        return self.__soy_privado
 # fin de definicion clase
